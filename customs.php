@@ -97,7 +97,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
 
-    // import config file
+    // import config credentials
     $configs = include('config.php');
 
     try {
